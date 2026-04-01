@@ -1,1 +1,62 @@
-
+[
+  {
+    "_id": {
+      "$oid": "69c6430c962f764fcbe46438"
+    },
+    "nombre": "David",
+    "datos": {
+      "direccion": "Right Street 123",
+      "telefono": "678921235",
+      "email": "email@email.com",
+      "fecha_registro": "2023-09-23"
+    },
+    "ventas": [
+      {
+        "fecha_venta": "2024-03-10T10:30:00",
+        "empleado": {
+          "nombre": "Maria"
+        },
+        "gafas": {
+          "marca": "RayBan",
+          "graduacion": {
+            "izquierda": 2.3,
+            "derecha": 2
+          },
+          "color_vidrio": {
+            "izquierdo": "transparente",
+            "derecho": "transparente"
+          },
+          "tipo_montura": "metalica",
+          "color_montura": "negro",
+          "precio": 127,
+          "proveedor": {
+            "nombre": "VisionSupplier"
+          }
+        }
+      },
+      {
+        "fecha_venta": "2025-01-15T18:45:00",
+        "empleado": {
+          "nombre": "Carlos"
+        },
+        "gafas": {
+          "marca": "Oakley",
+          "graduacion": {
+            "izquierda": 1.5,
+            "derecha": 1.75
+          },
+          "color_vidrio": {
+            "izquierdo": "negro",
+            "derecho": "negro"
+          },
+          "tipo_montura": "pasta",
+          "color_montura": "azul",
+          "precio": 210,
+          "proveedor": {
+            "nombre": "OpticSupplier"
+          }
+        }
+      }
+    ]
+  }
+]
