@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "69cec74743ddfaa17711bbdd"
+  },
+  "clientId": {
+    "$oid": "69cea88743ddfaa17711bbba"
+  },
+  "storeId": {
+    "$oid": "69ceb8bd43ddfaa17711bbbe"
+  },
+  "date": {
+    "$date": "2026-04-02T20:00:00.000Z"
+  },
+  "type": "delivery",
+  "products": [
+    {
+      "name": "Pizza BBQ",
+      "price": 12.5,
+      "quantity": 2
+    },
+    {
+      "name": "Coca Cola",
+      "price": 2.5,
+      "quantity": 2
+    }
+  ],
+  "totalPrice": 30,
+  "note": "Sin cebolla",
+  "delivery": {
+    "employeeId": {
+      "$oid": "69ceb97d43ddfaa17711bbc0"
+    },
+    "deliveredAt": {
+      "$date": "2026-04-02T20:45:00.000Z"
+    },
+    "address": "Arago 34",
+    "phone": "628390274"
+  }
+},
+{
+  "_id": {
+    "$oid": "69cec79443ddfaa17711bbde"
+  },
+  "clientId": {
+    "$oid": "69cea88743ddfaa17711bbba"
+  },
+  "storeId": {
+    "$oid": "69ceb8bd43ddfaa17711bbbe"
+  },
+  "date": {
+    "$date": "2026-04-02T21:00:00.000Z"
+  },
+  "type": "pickup",
+  "products": [
+    {
+      "name": "Cheese Burger",
+      "price": 8,
+      "quantity": 1
+    },
+    {
+      "name": "Coca Cola",
+      "price": 2.5,
+      "quantity": 1
+    }
+  ],
+  "totalPrice": 10.5,
+  "note": ""
+}]
