@@ -1,0 +1,16 @@
+{
+  "_id": {
+    "$oid": "69cea88743ddfaa17711bbba"
+  },
+  "first_name": "Pepe",
+  "last_name_1": "Gomez",
+  "last_name_2": "Ruiz",
+  "address": {
+    "street": "Arago",
+    "street_number": 34,
+    "postal_code": "08030",
+    "city": "Terrassa",
+    "province": "Barcelona"
+  },
+  "phone_number": "628390274"
+}
