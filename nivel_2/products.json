@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "69cebd5e43ddfaa17711bbc7"
+  },
+  "name": "Pizza BBQ",
+  "description": "Pizza con salsa barbacoa",
+  "image": "https://miweb.com/images/pizza-bbq.jpg",
+  "price": 12.5,
+  "type": "pizza",
+  "categoryId": {
+    "$oid": "69cebce943ddfaa17711bbc3"
+  }
+},
+{
+  "_id": {
+    "$oid": "69cec6c643ddfaa17711bbdb"
+  },
+  "name": "Cheese Burger",
+  "description": "Hamburguesa con queso",
+  "image": "https://miweb.com/images/burger.jpg",
+  "price": 8,
+  "type": "burger"
+},
+{
+  "_id": {
+    "$oid": "69cec6f343ddfaa17711bbdc"
+  },
+  "name": "Coca Cola",
+  "description": "Refresco",
+  "image": "https://miweb.com/images/coke.jpg",
+  "price": 2.5,
+  "type": "drink"
+}]
