@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "69ce3e5743ddfaa17711bba5"
+  },
+  "name": "RAY-BAN SPAIN S.L.",
+  "nif": "C372856334B",
+  "phone_number": "622353712",
+  "address": {
+    "street": "Carrer de dalt",
+    "street_number": 16,
+    "postal_code": "123455",
+    "city": "Badalona",
+    "country": "Spain"
+  }
+}]
