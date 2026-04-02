@@ -1,0 +1,36 @@
+[{
+  "0": {
+    "_id": {
+      "$oid": "69ce3e3443ddfaa17711bba2"
+    },
+    "brand": "Ray-Ban",
+    "graduation": {
+      "L": 0.9,
+      "R": 1.2
+    },
+    "glass_color": "Brown",
+    "frame_type": "plastic",
+    "frame_color": "Black",
+    "price": 125.5,
+    "provider": {
+      "id": {
+        "$oid": "69ce3e5743ddfaa17711bba5"
+      }
+    },
+    "bought_by": [
+      {
+        "client_id": {
+          "$oid": "69ce3e1243ddfaa17711bb9f"
+        }
+      },
+      {
+        "client_id": {
+          "$oid": "69ce549b43ddfaa17711bbb0"
+        }
+      }
+    ]
+  },
+  "_id": {
+    "$oid": "69ce3e3443ddfaa17711bba2"
+  }
+}]
