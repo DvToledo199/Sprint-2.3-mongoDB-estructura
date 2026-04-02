@@ -1,15 +1,5 @@
 # MongoDB Data Modeling – Sprint 2.3
 
-This project contains exercises focused on designing and modeling NoSQL databases using MongoDB.
-
-## Project Structure
-
-nivel1/
-  exercici1/
-    clientes.json
-    glasses.json
-    providers.json
-    optica_diagrama_mongo.png
 
 ## Exercise 1 – Optics Management (Client View)
 
@@ -72,3 +62,66 @@ This exercise represents the same system but from the product (glasses) point of
 ## Diagram
 
 The diagram was generated using MongoDB Compass (Data Modeling section).
+
+---
+## Exercise 1 – Food Delivery (Level 2)
+
+This exercise represents a database for an online food ordering system.
+
+### Collections
+
+- clients  
+  Stores customer information, including personal data, address and contact details.
+
+- products  
+  Contains the product catalog (pizzas, burgers and drinks) with name, description, image and price.
+
+- pizzaCategories  
+  Stores pizza categories separately to allow changes without affecting products.
+
+- orders  
+  Stores customer orders with date, type (delivery or pickup), products, total price and additional notes.
+
+- stores  
+  Stores information about each shop that manages orders.
+
+- employees  
+  Stores employee data (cook or delivery person) and the store they belong to.
+
+### Relationships
+
+- Each client can make multiple orders  
+- Each order references one client using ObjectId
+
+- Each order is managed by one store  
+- Each store can manage multiple orders
+
+- Each store has multiple employees  
+- Each employee references one store
+
+- Delivery orders include the employee responsible for delivery  
+- This is stored inside the order (delivery.employeeId)
+
+- Each pizza references a category  
+- Categories can be updated without modifying products
+
+### Data Model Explanation
+
+- Orders store their products embedded (name, price, quantity)
+
+- This allows:
+  - keeping the order independent from product changes  
+  - preserving the exact state of the order  
+  - faster access without extra queries  
+
+- References (ObjectId) are used for:
+  - clients  
+  - stores  
+  - employees  
+  - pizza categories  
+
+- The model separates:
+  - products → current catalog  
+  - orders → historical data  
+
+- Delivery information is only included when the order is for delivery
