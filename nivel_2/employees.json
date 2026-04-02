@@ -1,0 +1,13 @@
+{
+  "_id": {
+    "$oid": "69ceb97d43ddfaa17711bbc0"
+  },
+  "name": "Juan",
+  "surname": "Lopez",
+  "nif": "12345678A",
+  "phone": "600000000",
+  "role": "delivery",
+  "storeId": {
+    "$oid": "69ceb8bd43ddfaa17711bbbe"
+  }
+}
